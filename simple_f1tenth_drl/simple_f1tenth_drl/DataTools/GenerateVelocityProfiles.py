@@ -9,9 +9,9 @@ import glob
 from matplotlib.ticker import PercentFormatter
 from matplotlib.collections import LineCollection
 
-from simple_f1tenth_drl.DataTools.MapData import MapData
-from simple_f1tenth_drl.PlannerUtils.TrackLine import TrackLine 
-from simple_f1tenth_drl.DataTools.plotting_utils import *
+from MapData import MapData
+from PlannerUtils.TrackLine import TrackLine
+from plotting_utils import *
 from matplotlib.ticker import MultipleLocator
 
 SAVE_PDF = False
